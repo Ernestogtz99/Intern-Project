@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
+
+    <!-- Files -->
+    <link rel="stylesheet" href="../css/property.css">
+    <script src="../js/property.js" defer></script>
+
+    <title>Property Page</title>
+</head>
+<body>
+
+    <h1>Property Page</h1>
+
+    <div id="property-info">
+        <p id="public-id"></p>
+        <h2 id="title"></h2>
+        <h3 id="description"></h3>
+        <img id="image" src="">
+        <h3 id="property-type"></h3>
+        <h3 id="location"></h3>
+
+        <br>
+
+        <h2>Contact</h2>
+        <form>
+            <label>Nombre</label> <br>
+            <input type="text" name="Nombre" id="form-name"> 
+            <br>
+
+            <label>Número</label> <br>
+            <input type="number" name="Número" id="form-number"> 
+            <br> 
+
+            <label>Email</label> <br>
+            <input type="email" name="Email" id="form-email"> 
+            <br> 
+
+            <label>Mensaje</label> <br>
+            <textarea name="Mensaje" id="form-text-area" cols="80" rows="5"></textarea> 
+            <br>
+            
+            <button type="submit" id="form-submit">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
