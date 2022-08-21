@@ -27,7 +27,7 @@ function loadPage()
                 property_id,
                 message,
                 source
-            }).then(() => alert('Solicitud Enviada'))
+            })
         })
     })
 
