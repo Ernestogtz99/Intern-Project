@@ -2,7 +2,7 @@
 Hice un deploy de esta aplicación en heroku. Lo pueden encontrar en la sección de deployments de esta repo o pueden acceder directamente a este link: https://intern-project-eb.herokuapp.com/
 
 #### Screenshots
-![](images/ss1.png) ![](images/ss2.png)
+![](public/images/ss1.png) ![](public/images/ss2.png)
 
 
 # Notas
