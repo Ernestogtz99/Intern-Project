@@ -1,5 +1,8 @@
 # Correr el proyecto
-Hice un deploy de esta aplicación en heroku. Pueden acceder a el directamente en este link:  https://intern-project-eb.herokuapp.com/
+Para obtener una vista rápida del proyecto, hice un deploy de esta aplicación en heroku. Pueden acceder a el directamente en este link:  https://intern-project-eb.herokuapp.com/
+
+Para correrlo localmente, una vez descargado el repositorio (y teniendo Nodejs instalado), correr en la raíz del proyecto `npm install` para descargar las dependencias, y luego `npm run start` para correr el servidor.
+
 
 #### Screenshots
 ![](public/images/ss1.png) ![](public/images/ss2.png)
